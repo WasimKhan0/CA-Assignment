@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Secular+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .custom-gradient {
+      background: linear-gradient(75deg, #FEDDEE 0%, #FCF6FC 31.77%, #C5EAED 64.58%, #FDDDFE 100%);
+    }
+    .custom-blur {
+        filter: blur(250px);
+    }
+    .custom-box-shadow {
+      box-shadow: 2px 4px 15px 0px rgba(133, 133, 167, 0.25);
+    }
+    
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
